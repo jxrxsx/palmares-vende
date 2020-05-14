@@ -1,0 +1,5 @@
+whats app message
+    https://api.whatsapp://send?phone=${phone}&text=${text}
+
+footer padrão
+    <&#47;> &nbsp; with &nbsp; &#10084; &nbsp; by &nbsp; <a href="https://github.com/jxrxsx" target="blank"> jxrxsx </a>

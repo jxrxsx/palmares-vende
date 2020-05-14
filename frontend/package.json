@@ -1,0 +1,17 @@
+{
+  "name": "palmares-vende",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1"
+  },
+  "devDependencies": {
+  }
+}
