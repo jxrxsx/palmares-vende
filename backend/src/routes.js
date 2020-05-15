@@ -4,6 +4,7 @@ const routes = express.Router();
 
 const StoreController = require('../src/controllers/StoreController');
 const UserController = require('../src/controllers/UserController');
+const AdminPanelController = require('../src/controllers/AdminPanelController');
 
 
 // rotas do controller de store
@@ -32,6 +33,10 @@ routes.put('/user/:id', UserController.update);
 routes.delete('/user/:id', UserController.delete);
 
 routes.get('/user/seed', UserController.seed);
+
+
+//rotas do controller do painel de admin
+routes.get('/panel', AdminPanelController.index);
 
 //exporta todas as rotas
 module.exports = routes;

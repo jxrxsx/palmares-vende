@@ -1,5 +1,8 @@
 const mongoose = require('mongoose');
 
+// const statusEnum = new Enum(['Ativo', 'Desativo', 'Pendente']);
+
+
 const UserSchema = new mongoose.Schema({
     first_name: {
         type: String,
@@ -27,7 +30,7 @@ const UserSchema = new mongoose.Schema({
     },
 
     isActive: {
-        type: Boolean,
+        type: String,
         required: true
     }
 

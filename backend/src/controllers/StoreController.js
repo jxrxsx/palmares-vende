@@ -33,6 +33,7 @@ module.exports = {
     },
 
     async delete (req, res) {
+        console.log(`id chegando no controller: ${req.params.id}`);
         const store = await Store.findByIdAndDelete(req.params.id);
 
         return res.send();

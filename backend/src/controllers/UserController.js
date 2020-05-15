@@ -12,7 +12,8 @@ module.exports = {
     },    
 
     async create (req, res) {
-        const user = await User.create(req.body);
+        // const user = await User.create(req.body);
+        await User.create(req.body);
 
         return res.send();
     },
@@ -33,7 +34,8 @@ module.exports = {
     },
 
     async delete (req, res) {
-        const user = await User.findByIdAndDelete(req.params.id);
+        // const user = await User.findByIdAndDelete(req.params.id);
+        await User.findByIdAndDelete(req.params.id);
 
         return res.send();
     },
