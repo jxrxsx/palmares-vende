@@ -7,6 +7,12 @@ body {
   padding-top: 56px;
 }
 
+.btn {
+  border-radius: 24px;
+}
+
+
+
 @media only screen and (max-width: 425px) {
 
   .jumbotron {
