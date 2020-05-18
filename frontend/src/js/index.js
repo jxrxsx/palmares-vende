@@ -34,8 +34,3 @@ $(document).ready(function(){
     });
 
 });
-
-// async function template () {
-//     var template = 
-
-// }

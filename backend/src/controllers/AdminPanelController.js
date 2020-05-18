@@ -23,16 +23,16 @@ module.exports = {
            // console.log(`indice do array de lojas: ${i}`);
 
             let editBtnHtmlTemplate = 
-                `<a id="${store.id}" name="editBtn" href="" class="btn btn-warning">
+                `<button id="${store.id}" name="editBtn" type="button" class="btn btn-warning">
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                     Editar 
-                </a>`;
+                </button>`;
 
             let deleteBtnHtmlTemplate = 
-                `<a id="deleteBtn" name="${store.id}" href="" class="btn btn-danger">
+                `<button id="${store.id}" name="deleteBtn" type="button" class="btn btn-danger">
                     <i class="fa fa-trash-o" aria-hidden="true"></i>
                     Deletar 
-                </a>`;
+                </button>`;
 
             // retorna string contendo a tag html com o ícone de edit do font awesome
             storeArr.push(editBtnHtmlTemplate);
